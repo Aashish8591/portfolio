@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+body {
+  background: #050505;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  top: -100px;
+  left: -100px;
+  background: #4ade80;
+  filter: blur(180px);
+  opacity: 0.15;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  bottom: -100px;
+  right: -100px;
+  background: #4ade80;
+  filter: blur(180px);
+  opacity: 0.12;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+
+
+
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
