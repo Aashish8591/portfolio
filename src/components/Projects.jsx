@@ -51,7 +51,7 @@ const projects = [
       "Personal portfolio built with React, Tailwind CSS and Framer Motion featuring modern UI and animations.",
     tech: ["React", "Tailwind", "Framer Motion"],
     github: "https://github.com/Aashish8591/portfolio",
-    demo: "#",
+    demo: "https://portfolio-iota-amber-93.vercel.app/",
   },
 
     {
