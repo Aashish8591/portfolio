@@ -4,14 +4,15 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import civicEarthImg from "../assets/images/civicearth.png";
 import weatherImg from "../assets/images/wetherimg.png";
 import eventImg from "../assets/images/eventImg.png";
-import portfolioImg from "../assets/images/portfolioImg.png"
-import jarvisImg from "../assets/images/jarvisImg.gif"
+import portfolioImg from "../assets/images/portfolioImg.png";
+import jarvisImg from "../assets/images/jarvisImg.gif";
 
 const projects = [
-    {
+  {
     title: "Weather App",
     image: weatherImg,
-    description: "A responsive weather application that provides real-time weather updates, temperature forecasts, humidity levels, and location-based weather information through API integration.",
+    description:
+      "A responsive weather application that provides real-time weather updates, temperature forecasts, humidity levels, and location-based weather information through API integration.",
     tech: ["JavaScript", "HTML5", "CSS3"],
     github: "https://github.com/Aashish8591/weather-app",
     demo: "https://weather-app-done.netlify.app/",
@@ -54,7 +55,7 @@ const projects = [
     demo: "https://portfolio-iota-amber-93.vercel.app/",
   },
 
-    {
+  {
     title: "JARVIS Voice AI Assistant",
     image: jarvisImg,
     description:
@@ -62,7 +63,6 @@ const projects = [
     tech: ["Python", "SpeechRecognition", "pyttsx3", "OpenCV", "FastAPI"],
     github: "https://github.com/Aashish8591/Jarvis-Ai",
   },
-
 ];
 
 export default function Projects() {
@@ -258,23 +258,15 @@ export default function Projects() {
       "
           >
             {/* FULL CARD CONTENT HERE */}
-            <div
+            <img
+              src={project.image}
+              alt={project.title}
               className="
+  w-full
   h-40
-  bg-gradient-to-br
-  from-lime-500/20
-  via-black
-  to-lime-500/10
-  flex
-  items-center
-  justify-center
-  text-2xl
-  font-bold
-  text-lime-400
+  object-cover
   "
-            >
-              {project.title}
-            </div>
+            />
 
             <div className="p-5">
               <h3 className="text-xl font-bold mb-3">{project.title}</h3>
