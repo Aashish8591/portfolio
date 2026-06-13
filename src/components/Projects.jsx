@@ -50,7 +50,7 @@ const projects = [
     description:
       "Personal portfolio built with React, Tailwind CSS and Framer Motion featuring modern UI and animations.",
     tech: ["React", "Tailwind", "Framer Motion"],
-    github: "#",
+    github: "https://github.com/Aashish8591/portfolio",
     demo: "#",
   },
 
