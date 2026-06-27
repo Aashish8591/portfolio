@@ -13,7 +13,7 @@ const projects = [
     title: "EventPulse",
     image: feedbackimg,
     description:
-      "A full-stack event feedback management system that allows users to explore upcoming events, submit feedback with ratings, and view participant reviews. Built with secure REST APIs, responsive UI, and cloud deployment using Spring Boot, React, MySQL, Railway, and Render.",
+      "A full-stack event feedback management system that allows users to explore upcoming events, submit feedback with ratings, and view participant reviews.",
     tech: [
       "React.js",
       "Tailwind CSS",
