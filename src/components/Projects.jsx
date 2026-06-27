@@ -6,16 +6,27 @@ import weatherImg from "../assets/images/wetherimg.png";
 import eventImg from "../assets/images/eventImg.png";
 import portfolioImg from "../assets/images/portfolioImg.png";
 import jarvisImg from "../assets/images/jarvisImg.gif";
+import feedbackimg from "../assets/images/feedbackimg.png";
 
 const projects = [
   {
-    title: "Weather App",
-    image: weatherImg,
+    title: "EventPulse",
+    image: feedbackimg,
     description:
-      "A responsive weather application that provides real-time weather updates, temperature forecasts, humidity levels, and location-based weather information through API integration.",
-    tech: ["JavaScript", "HTML5", "CSS3"],
-    github: "https://github.com/Aashish8591/weather-app",
-    demo: "https://weather-app-done.netlify.app/",
+      "A full-stack event feedback management system that allows users to explore upcoming events, submit feedback with ratings, and view participant reviews. Built with secure REST APIs, responsive UI, and cloud deployment using Spring Boot, React, MySQL, Railway, and Render.",
+    tech: [
+      "React.js",
+      "Tailwind CSS",
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "JPA",
+      "REST API",
+      "Railway",
+      "Render",
+    ],
+    github: "https://github.com/Aashish8591/EventPulse_frontend.git",
+    demo: "https://event-pulse-frontend.vercel.app/",
   },
 
   {
@@ -53,6 +64,16 @@ const projects = [
     tech: ["React", "Tailwind", "Framer Motion"],
     github: "https://github.com/Aashish8591/portfolio",
     demo: "https://portfolio-iota-amber-93.vercel.app/",
+  },
+
+  {
+    title: "Weather App",
+    image: weatherImg,
+    description:
+      "A responsive weather application that provides real-time weather updates, temperature forecasts, humidity levels, and location-based weather information through API integration.",
+    tech: ["JavaScript", "HTML5", "CSS3"],
+    github: "https://github.com/Aashish8591/weather-app",
+    demo: "https://weather-app-done.netlify.app/",
   },
 
   {
