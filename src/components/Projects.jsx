@@ -7,6 +7,7 @@ import eventImg from "../assets/images/eventImg.png";
 import portfolioImg from "../assets/images/portfolioImg.png";
 import jarvisImg from "../assets/images/jarvisImg.gif";
 import feedbackimg from "../assets/images/feedbackimg.png";
+import botImg from "../assets/images/botImg.png";
 
 const projects = [
   {
@@ -54,6 +55,23 @@ const projects = [
     tech: ["React.js", "Tailwind CSS"],
     github: "https://github.com/SairajVichare/Event-P-O",
     demo: "https://eventsmanagementweb.netlify.app/",
+  },
+
+  {
+    title: "Botleague-ui",
+    image: botImg,
+    description:
+      "A responsive robotics competition landing page built from a Figma design, featuring smooth navigation, reusable React components, and a modern user interface.",
+    tech: [
+      "React.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Netlify",
+      "GitHub",
+    ],
+    github: "https://github.com/Aashish8591/Botleague-UI.git",
+    demo: "https://botleague-ui.netlify.app/",
   },
 
   {
